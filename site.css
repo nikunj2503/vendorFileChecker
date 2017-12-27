@@ -1,0 +1,40 @@
+body {
+    background-image: url(security.jpg);
+    background-size:cover;
+}
+
+.wrapper {
+    position:absolute;
+    background-color: white;
+    opacity: 0.8;
+    top:50%;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    text-align: center;
+    width:80%;
+    height:300px;
+}
+h1 {
+    margin-bottom: 4%;
+    font-family: 'Bungee', cursive;
+}
+
+.domain {
+    text-align: center;
+    font-size:16px;
+    display:block;
+    margin: 2% auto 5% auto;
+    width: 30%;
+    height: 40px;
+    border:2px solid lightgreen;
+}
+
+.submit {
+    padding: 10px 25px;
+    background-color: lightgreen;
+    font-size: 20px;
+    font-weight: 600;
+    cursor:pointer;
+}
